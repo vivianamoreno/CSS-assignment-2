@@ -1,0 +1,113 @@
+/* you will add css rules for element selectors and IDs */
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* you may add to or change the body rule */
+
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #999;
+    margin: 0;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+    margin-top: 3.5rem;
+}
+
+#cougar {
+  background-color: #B26219;
+}
+
+#lion {
+  background-color: #FFBD82;
+}
+
+#tiger {
+  background-color: #FFD5AE;
+}
+
+section {
+  max-width: 600px;
+}
+
+.text {
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+h2 {
+  text-align: left;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+header {
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  margin: 0;
+  margin-left: 1rem;
+}
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+nav a {
+  text-decoration: none;
+}
+
+a {
+    color: #F7EDD2;
+}
+a:hover {
+    color: #82E8FF;
+}
